@@ -1,16 +1,18 @@
 /* 350 */
-@media (max-width: 1300px) {
+@media (max-width: 992px) {
     .container {
         width: 90%;
     }
 
     /* header section */
-    header nav{
+    header nav {
         padding: 10px 25px;
     }
+
     header nav h2 {
         font-size: 25px;
     }
+
 
     header nav ul {
         background-color: #000;
@@ -73,16 +75,65 @@
 }
 
 /* 450 */
-@media (min-width: 371px) and (max-width: 1300px) {}
+@media (min-width: 371px) and (max-width: 1300px) {
+    /* header section */
+
+    header nav h2 {
+        font-size: 30px;
+    }
+
+    header .container .content h1 {
+        font-size: 40px;
+    }
+
+    header .container .content h3 {
+        font-size: 35px;
+    }
+
+    header .container .content button {
+        padding: 15px;
+        font-size: 16px;
+    }
+}
 
 /* 650 */
-@media (min-width: 577px) and (max-width: 1300px) {}
+@media (min-width: 577px) and (max-width: 1300px) {
+    .container {
+        width: 80%;
+    }
+
+    /* header section */
+
+    header nav h2 {
+        font-size: 40px;
+    }
+}
 
 /* 850 */
 @media (min-width: 769px) and (max-width: 1300px) {}
 
 /* 1050 */
-@media (min-width: 992px) and (max-width: 1300px) {}
+@media (min-width: 992px) and (max-width: 1300px) {
+    /* header nav ul {
+        background-color: transparent;
+        flex-direction: row;
+        justify-content: end;
+        height: auto;
+        top: 0;
+        right: 0;
+        transform: translateX(0%);
+        padding-block: 15px;
+        gap: 15px;
+    }
+
+    header nav ul li:last-child {
+        margin-right: 0px;
+    }
+
+    header nav .menu {
+        display: none;
+    } */
+}
 
 /* 1250 */
 @media (min-width: 1181px) and (max-width: 1300px) {}

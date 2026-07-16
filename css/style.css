@@ -85,10 +85,11 @@ header .container {
 header .container .content h1 {
     font-size: 60px;
     margin: 0;
-    letter-spacing: 1.5px;
+    letter-spacing: 3px;
 }
 
 header .container .content h3 {
+    letter-spacing: 3px;
     font-size: 40px;
     margin-block: 20px;
 }
