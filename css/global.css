@@ -1,5 +1,6 @@
 :root {
     --primary-color: #E55556;
+    --paragraph-color:rgba(0, 0, 0 , 0.8);
 }
 
 body {
@@ -29,7 +30,9 @@ a{
 li{
     list-style: none;
 }
-
+section {
+    padding-top: 50px;
+}
 .container {
     width: 85%;
     margin: auto;

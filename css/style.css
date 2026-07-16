@@ -107,3 +107,31 @@ header .container .content button {
 header .container .content button:hover {
     background-color: transparent;
 }
+
+/** About Section */
+#About .container{
+    display: flex;
+    align-items: center;
+}
+#About .container .content{
+    width: 50%;
+}
+#About .container .image {
+    width: 50%;
+}
+#About .container .image img {
+    display: block;
+    width: 75%;
+    margin: auto;
+}
+
+#About .container .content h2 {
+    margin-top: 0;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: var(--primary-color);
+}
+#About .container .content p{
+    line-height: 1.5;
+    color: var(--paragraph-color);
+} 

@@ -1,7 +1,11 @@
 /* 350 */
 @media (max-width: 992px) {
+    section {
+        padding-top: 20px;
+    }
+
     .container {
-        width: 90%;
+        width: 95%;
     }
 
     /* header section */
@@ -72,6 +76,24 @@
         padding: 10px;
         font-size: 14px;
     }
+
+    /* About section */
+
+    #About .container {
+        flex-direction: column;
+    }
+
+    #About .container .content {
+        width: 100%;
+    }
+
+    #About .container .content h2 {
+        font-size: 28px;
+    }
+
+    #About .container .image {
+        width: 100%;
+    }
 }
 
 /* 450 */
@@ -107,10 +129,33 @@
     header nav h2 {
         font-size: 40px;
     }
+
+    /* About section */
+    #About .container .content h2 {
+        font-size:32px;
+    }
 }
 
 /* 850 */
-@media (min-width: 769px) and (max-width: 1300px) {}
+@media (min-width: 769px) and (max-width: 1300px) {
+        /* About section */
+
+    #About .container {
+        flex-direction: row;
+    }
+
+    #About .container .content {
+        width: 50%;
+    }
+
+    #About .container .content h2 {
+        font-size: 35px;
+    }
+
+    #About .container .image {
+        width: 50%;
+    }
+}
 
 /* 1050 */
 @media (min-width: 992px) and (max-width: 1300px) {
