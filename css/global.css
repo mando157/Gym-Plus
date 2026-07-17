@@ -1,6 +1,7 @@
 :root {
     --primary-color: #E55556;
     --paragraph-color:rgba(0, 0, 0 , 0.8);
+    --letter-spacing:2px;
 }
 
 body {

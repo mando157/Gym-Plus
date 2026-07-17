@@ -122,6 +122,20 @@
         width: 100%;
     }
 
+    /** Clients Section */
+
+    #Clients .container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #Clients .container .client {
+        width: 100%;
+    }
+
+    #Clients .container .client h4 {
+        font-size: 20px;
+    }
 }
 
 /* 450 */
@@ -151,6 +165,12 @@
         margin: auto;
     }
 
+    /* Clients Section */
+
+    #Clients .container .client {
+        width: 320px;
+        margin: auto;
+    }
 }
 
 /* 650 */
@@ -208,6 +228,22 @@
 
     #Services .container .box .logo {
         width: 35%;
+    }
+
+    
+    /* Clients Section */
+
+    #Clients .container {
+        flex-direction: row;
+        padding: 15;
+    }
+
+    #Clients .container .client {
+        width: 45%;
+    }
+
+    #Clients .container .client h4 {
+        font-size: 20px;
     }
 }
 

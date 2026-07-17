@@ -145,41 +145,50 @@ header .container .content button:hover {
 #Services {
     background-color: var(--primary-color);
 }
-#Services .title h2{
+
+#Services .title h2 {
     color: #fff;
 }
-#Services .container .box{
+
+#Services .container .box {
     display: flex;
-    padding:20px;
+    padding: 20px;
 }
+
 #Services .container .box .content {
     width: 65%;
 }
-#Services .container .box .content h3{
+
+#Services .container .box .content h3 {
     color: #fff;
     font-size: 30px;
     letter-spacing: 2px;
     margin-block: 20px;
 }
-#Services .container .box .content p{
+
+#Services .container .box .content p {
     line-height: 1.5;
 }
-#Services .container .box .content button{
+
+#Services .container .box .content button {
     padding: 10px;
     background-color: #000;
     color: #fff;
     border: none;
     transition-duration: .5s;
 }
-#Services .container .box .content button:hover{
-    background-color:#E97272;
+
+#Services .container .box .content button:hover {
+    background-color: #E97272;
 }
+
 #Services .container .box .logo {
     width: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #Services .container .box .logo i {
     background-color: #fff;
     padding: 25px;
@@ -187,4 +196,38 @@ header .container .content button:hover {
     border-radius: 50%;
     font-size: 40px;
     color: var(--primary-color);
+}
+
+/** Clients Section */
+#Clients .container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+#Clients .container .client {
+    width: 40%;
+    text-align: center;
+}
+#Clients .container .client p {
+    color: var(--paragraph-color);
+    line-height: 1.5;
+}
+#Clients .container .client h4 {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing:var(--letter-spacing) ;
+    color: var(--primary-color);
+    margin-block: 20px ;
+}
+#Clients .container .client .image {
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    overflow: hidden;
+    width: 90px;
+    height: 90px;
+    margin: auto;
+}
+
+#Clients .container .client .image img{
+width: 100%;
 }
