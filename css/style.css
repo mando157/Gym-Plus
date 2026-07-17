@@ -108,6 +108,21 @@ header .container .content button:hover {
     background-color: transparent;
 }
 
+header .back {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    border-radius: 50%;
+}
+
+
+
 /** About Section */
 #About .container {
     display: flex;
