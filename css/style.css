@@ -262,7 +262,7 @@ header .back {
 #Trainers .container {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom:40px ;
+    padding-bottom: 40px;
 }
 
 #Trainers .container .card {
@@ -383,19 +383,53 @@ header .back {
     background-image: url(../images/g2-9aae0bfa.jpg);
     grid-row: 3;
 }
+
 #Gallery .container .images .img-3 {
     background-image: url(../images/g5-8ce27a04.jpg);
 }
-#Gallery .container .images .img-4{
+
+#Gallery .container .images .img-4 {
     background-image: url(../images/g4-9fc39936.jpg);
 }
-#Gallery .container .images .img-5{
+
+#Gallery .container .images .img-5 {
     background-image: url(../images/g6-64027e43.jpg);
     grid-row: span 2;
 }
-#Gallery .container .images .img-6{
-background-image: url(../images/g3-1f7cace9.jpg);
+
+#Gallery .container .images .img-6 {
+    background-image: url(../images/g3-1f7cace9.jpg);
 }
-#Gallery .container .images .img-7{
+
+#Gallery .container .images .img-7 {
     background-image: url(../images/g7-9ead7675.jpg);
+}
+
+/** Contact Us section */
+
+#Contact iframe {
+    padding-block: 30px;
+    border: none;
+}
+
+#Contact .container .content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Contact .container .content .num-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#Contact .container .content .num-card i{
+    padding: 20px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin-bottom: 15px;
+}
+#Contact .container .content .num-card a{
+    color: #000;
 }

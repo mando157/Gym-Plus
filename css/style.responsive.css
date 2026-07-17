@@ -161,6 +161,16 @@
         grid-template-rows: repeat(9, 300px);
         margin: auto;
     }
+
+    /* Contact Us section */
+
+    #Contact .container .content {
+        flex-direction: column;
+    }
+
+    #Contact .container .content .num-card:not(:last-child) {
+        margin-bottom: 25px;
+    }
 }
 
 /* 450 */
@@ -285,6 +295,16 @@
         width: 100%;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 300px);
+    }
+
+    /* Contact Us section */
+
+    #Contact .container .content {
+        flex-direction: row;
+    }
+
+    #Contact .container .content .num-card:not(:last-child) {
+        margin-bottom: 0px;
     }
 
 }
