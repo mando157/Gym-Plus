@@ -145,46 +145,13 @@ header .container .content button:hover {
 #Services {
     background-color: var(--primary-color);
 }
-#Services .title h2{
-    color: #fff;
-}
-#Services .container .box{
+#Services .container{
     display: flex;
-    padding:20px;
 }
-#Services .container .box .content {
-    width: 65%;
+#Services .container .content {
+    background-color: #ff0;
+    width: 70%;
 }
-#Services .container .box .content h3{
-    color: #fff;
-    font-size: 30px;
-    letter-spacing: 2px;
-    margin-block: 20px;
-}
-#Services .container .box .content p{
-    line-height: 1.5;
-}
-#Services .container .box .content button{
-    padding: 10px;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    transition-duration: .5s;
-}
-#Services .container .box .content button:hover{
-    background-color:#E97272;
-}
-#Services .container .box .logo {
-    width: 35%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#Services .container .box .logo i {
-    background-color: #fff;
-    padding: 25px;
-    border: 1px solid #000;
-    border-radius: 50%;
-    font-size: 40px;
-    color: var(--primary-color);
+#Services .container .logo {
+    width: 30%;
 }

@@ -8,6 +8,11 @@
         width: 95%;
     }
 
+    .title h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
     /* header section */
     header nav {
         padding: 10px 25px;
@@ -94,6 +99,29 @@
     #About .container .image {
         width: 100%;
     }
+
+    /* Services Section */
+
+    #Services .container .box {
+        flex-direction: column-reverse;
+    }
+
+    #Services .container .box-2 {
+        flex-direction: column;
+    }
+
+    #Services .container .box .content {
+        width: 100%;
+    }
+
+    #Services .container .box .content h3 {
+        font-size: 22px;
+    }
+
+    #Services .container .box .logo {
+        width: 100%;
+    }
+
 }
 
 /* 450 */
@@ -116,12 +144,24 @@
         padding: 15px;
         font-size: 16px;
     }
+
+    /* Services Section */
+    #Services .container .box .content {
+        width: 300px;
+        margin: auto;
+    }
+
 }
 
 /* 650 */
 @media (min-width: 577px) and (max-width: 1300px) {
     .container {
         width: 80%;
+    }
+
+    .title h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
     }
 
     /* header section */
@@ -132,13 +172,13 @@
 
     /* About section */
     #About .container .content h2 {
-        font-size:32px;
+        font-size: 32px;
     }
 }
 
 /* 850 */
 @media (min-width: 769px) and (max-width: 1300px) {
-        /* About section */
+    /* About section */
 
     #About .container {
         flex-direction: row;
@@ -155,30 +195,24 @@
     #About .container .image {
         width: 50%;
     }
+
+    /* Services Section */
+    #Services .container .box {
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    #Services .container .box .content {
+        width: 65%;
+    }
+
+    #Services .container .box .logo {
+        width: 35%;
+    }
 }
 
 /* 1050 */
-@media (min-width: 992px) and (max-width: 1300px) {
-    /* header nav ul {
-        background-color: transparent;
-        flex-direction: row;
-        justify-content: end;
-        height: auto;
-        top: 0;
-        right: 0;
-        transform: translateX(0%);
-        padding-block: 15px;
-        gap: 15px;
-    }
-
-    header nav ul li:last-child {
-        margin-right: 0px;
-    }
-
-    header nav .menu {
-        display: none;
-    } */
-}
+@media (min-width: 992px) and (max-width: 1300px) {}
 
 /* 1250 */
 @media (min-width: 1181px) and (max-width: 1300px) {}
