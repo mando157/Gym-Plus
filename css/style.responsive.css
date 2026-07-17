@@ -122,7 +122,7 @@
         width: 100%;
     }
 
-    /** Clients Section */
+    /* Clients Section */
 
     #Clients .container {
         flex-direction: column;
@@ -135,6 +135,23 @@
 
     #Clients .container .client h4 {
         font-size: 20px;
+    }
+
+    /* Our Trainers section */
+    #Trainers .container {
+        padding-block: 0px;
+    }
+
+    #Trainers .container .card {
+        width: 100%;
+    }
+
+    #Trainers .container .card:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    #Trainers .container .card .item {
+        width: 240px;
     }
 }
 
@@ -230,7 +247,7 @@
         width: 35%;
     }
 
-    
+
     /* Clients Section */
 
     #Clients .container {
@@ -245,10 +262,40 @@
     #Clients .container .client h4 {
         font-size: 20px;
     }
+
+    /* Our Trainers section */
+    #Trainers .container {
+        padding-block: 10px;
+    }
+
+    #Trainers .container .card {
+        width: 50%;
+    }
+
 }
 
 /* 1050 */
-@media (min-width: 992px) and (max-width: 1300px) {}
+@media (min-width: 992px) and (max-width: 1300px) {
+
+    /* Our Trainers section */
+    #Trainers .container {
+        padding-block: 10px;
+    }
+
+    #Trainers .container .card {
+        width: 25%;
+    }
+
+    #Trainers .container .card .item {
+        width: 75%;
+    }
+
+    #Trainers .container .card .item .image {
+        width: 120px;
+        height: 120px;
+    }
+
+}
 
 /* 1250 */
 @media (min-width: 1181px) and (max-width: 1300px) {}

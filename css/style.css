@@ -214,26 +214,30 @@ header .back {
 }
 
 /** Clients Section */
-#Clients .container{
+#Clients .container {
     display: flex;
     justify-content: space-evenly;
     padding: 30px;
 }
+
 #Clients .container .client {
     width: 40%;
     text-align: center;
 }
+
 #Clients .container .client p {
     color: var(--paragraph-color);
     line-height: 1.5;
 }
+
 #Clients .container .client h4 {
     font-size: 25px;
     font-weight: 500;
-    letter-spacing:var(--letter-spacing) ;
+    letter-spacing: var(--letter-spacing);
     color: var(--primary-color);
-    margin-block: 20px ;
+    margin-block: 20px;
 }
+
 #Clients .container .client .image {
     border: 2px solid var(--primary-color);
     border-radius: 50%;
@@ -243,6 +247,108 @@ header .back {
     margin: auto;
 }
 
-#Clients .container .client .image img{
-width: 100%;
+#Clients .container .client .image img {
+    width: 100%;
+}
+
+/** Our Trainers section */
+#Trainers {
+    background-color: var(--primary-color);
+}
+
+#Trainers .title {
+    color: #fff;
+}
+
+#Trainers .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-block: 40px;
+}
+
+#Trainers .container .card {
+    width: 25%;
+}
+
+#Trainers .container .card .item {
+    margin: auto;
+    width: 220px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px #000;
+}
+
+#Trainers .container .card .item .image {
+    border: 6px solid var(--primary-color);
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+#Trainers .container .card .item .image img {
+    width: 100%;
+}
+
+#Trainers .container .card .item h2 {
+    color: var(--primary-color);
+    letter-spacing: var(--letter-spacing);
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+
+#Trainers .container .card .item h4 {
+    margin-block: 5px;
+    letter-spacing: var(--letter-spacing);
+    font-size: 16px;
+}
+#Trainers .container .card .item p {
+    line-height: 1.5;
+}
+
+#Trainers .container .card .item .icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-block: 10px;
+}
+
+#Trainers .container .card .item .icons a {
+    background-color: var(--primary-color);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+    transition-duration: .5s;
+}
+#Trainers .container .card .item .icons a:nth-of-type(1){
+    background-color: #1877F2;
+}
+#Trainers .container .card .item .icons a:nth-of-type(2){
+    background-color: #FF3300;
+}
+#Trainers .container .card .item .icons a:nth-of-type(3){
+    background-color: #1DA1F2;
+}
+#Trainers .container .card .item .icons a:hover:nth-of-type(1){
+    background-color: #fff;
+    color: #1877F2;
+}
+#Trainers .container .card .item .icons a:hover:nth-of-type(2){
+    background-color: #fff;
+    color: #FF3300;
+}
+#Trainers .container .card .item .icons a:hover:nth-of-type(3){
+    background-color: #fff;
+    color: #1DA1F2;
 }
