@@ -122,6 +122,14 @@
         width: 100%;
     }
 
+    #Services .container .box .logo .icon {
+        padding: 20px;
+    }
+
+    #Services .container .box:not(:last-child) {
+        margin-bottom: 25px;
+    }
+
     /* Clients Section */
 
     #Clients .container {
@@ -131,6 +139,10 @@
 
     #Clients .container .client {
         width: 100%;
+    }
+
+    #Clients .container .client:first-child {
+        margin-bottom: 25px;
     }
 
     #Clients .container .client h4 {
@@ -170,6 +182,18 @@
 
     #Contact .container .content .num-card:not(:last-child) {
         margin-bottom: 25px;
+    }
+
+    #Contact .app-form form .input-row {
+        flex-direction: column;
+    }
+
+    #Contact .app-form form .input-row input {
+        width: 100%;
+    }
+
+    #Contact .app-form form .input-row input:not(:last-child) {
+        margin-bottom: 20px;
     }
 }
 
@@ -257,6 +281,10 @@
         padding: 10px;
     }
 
+    #Services .container .box:not(:last-child) {
+        margin-bottom: 0px;
+    }
+
     #Services .container .box .content {
         width: 65%;
     }
@@ -275,6 +303,10 @@
 
     #Clients .container .client {
         width: 45%;
+    }
+
+    #Clients .container .client:first-child {
+        margin-bottom: 0px;
     }
 
     #Clients .container .client h4 {
@@ -307,6 +339,22 @@
         margin-bottom: 0px;
     }
 
+    #Contact .app-form form{
+        width: 90%;
+    }
+
+    #Contact .app-form form .input-row {
+        flex-direction: row;
+    }
+
+    #Contact .app-form form .input-row input {
+        width: 30%;
+    }
+
+    #Contact .app-form form .input-row input:not(:last-child) {
+        margin-bottom: 0px;
+    }
+
 }
 
 /* 1050 */
@@ -322,7 +370,7 @@
     }
 
     #Trainers .container .card .item {
-        width: 75%;
+        width: 90%;
     }
 
     #Trainers .container .card .item .image {
