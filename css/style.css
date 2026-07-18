@@ -154,6 +154,9 @@ header .back {
     line-height: 1.5;
     color: var(--paragraph-color);
 }
+#About .container .content .mid-p{
+    margin: 25px 0px 15px 0px;
+} 
 
 /** Services Section */
 
@@ -422,6 +425,7 @@ header .back {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 30%;
     gap: 10px;
 }
 
