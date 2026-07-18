@@ -59,7 +59,7 @@
     }
 
     header nav .menu:focus+ul {
-        height: 300px;
+        height: 350px;
         padding-block: 25px;
     }
 
@@ -195,6 +195,40 @@
     #Contact .app-form form .input-row input:not(:last-child) {
         margin-bottom: 20px;
     }
+
+    /* Footer section */
+    footer {
+        padding: 30px 0px 0px;
+    }
+
+    footer .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer .container .part-1,
+    footer .container .part-2,
+    footer .container .part-3 {
+        width: 100%;
+    }
+
+    footer .container .part-2 .images {
+        padding: 0;
+    }
+
+    footer .container .part-2 .images .img {
+        width: 90%;
+        margin: auto;
+    }
+
+    footer .container .part-3 .content {
+        width: 80%;
+    }
+
+    footer .rights .icons a {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 /* 450 */
@@ -252,6 +286,16 @@
     /* About section */
     #About .container .content h2 {
         font-size: 32px;
+    }
+
+    /* footer section */
+    footer .container .part-2 .images .img {
+        width: 30%;
+    }
+
+    footer .rights .icons a {
+        width: 40px;
+        height: 40px;
     }
 }
 
@@ -339,7 +383,7 @@
         margin-bottom: 0px;
     }
 
-    #Contact .app-form form{
+    #Contact .app-form form {
         width: 90%;
     }
 
